@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/note_shape"
+    android:layout_margin="8dp"
+    android:padding="@dimen/table_cell_margin">
+
+    <TextView
+        android:id="@+id/thought_item_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/table_cell_margin"
+        android:gravity="start"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:background="@color/white"
+        tools:hint="tableRow"/>
+    <View
+        android:layout_marginLeft="@dimen/table_cell_margin"
+        android:layout_marginRight="@dimen/table_cell_margin"
+        android:layout_width="match_parent"
+        android:background="@color/colorPrimary"
+        android:layout_height="2dp" />
+    <TextView
+        android:id="@+id/thought_item_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/table_cell_margin"
+        android:gravity="start"
+        android:textSize="16sp"
+        android:background="@color/white"
+        tools:hint="tableRow"
+        android:maxLines="4" />
+
+</LinearLayout>

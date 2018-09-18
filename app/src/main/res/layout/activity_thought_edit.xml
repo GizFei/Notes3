@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_margin="@dimen/activity_horizontal_margin"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/thought_edit_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/thought_title" />
+    <EditText
+        android:id="@+id/thought_edit_content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="@dimen/table_cell_margin"
+        android:gravity="start"
+        android:hint="@string/thought_content"
+        android:background="@null"
+        android:inputType="textMultiLine"
+        android:minLines="4" />
+    <Button
+        android:id="@+id/thought_edit_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_marginTop="@dimen/table_cell_margin"
+        android:text="编辑完成"/>
+
+</LinearLayout>

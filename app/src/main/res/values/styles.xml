@@ -1,0 +1,64 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="actionOverflowMenuStyle">@style/OverflowMenuStyle</item>
+        <item name="android:spinnerMode">dropdown</item>
+    </style>
+    <style name="AppEditTheme" parent="Base.Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="OverflowMenuStyle" parent="Base.Widget.AppCompat.Light.PopupMenu.Overflow">
+        <item name="overlapAnchor">false</item>
+    </style>
+    <style name="PopupWindowAnim" parent="android:Animation" mce_bogus="1">
+        <item name="android:windowEnterAnimation">@anim/popwindow_in</item>
+        <item name="android:windowExitAnimation">@anim/popwindow_out</item>
+    </style>
+
+    <style name="AppRedTheme" parent="AppTheme">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/theme_red</item>
+        <item name="colorPrimaryDark">@color/theme_red</item>
+    </style>
+    <style name="AppBlueTheme" parent="AppTheme">
+        <item name="colorPrimary">@color/theme_blue</item>
+        <item name="colorPrimaryDark">@color/theme_blue</item>
+    </style>
+    <style name="AppPinkTheme" parent="AppTheme">
+        <item name="colorPrimary">@color/theme_pink</item>
+        <item name="colorPrimaryDark">@color/theme_pink</item>
+    </style>
+    <style name="AppGrayTheme" parent="AppTheme">
+        <item name="colorPrimary">@color/theme_gray</item>
+        <item name="colorPrimaryDark">@color/theme_gray</item>
+    </style>
+    <style name="AppYellowTheme" parent="AppTheme">
+        <item name="colorPrimary">@color/theme_yellow</item>
+        <item name="colorPrimaryDark">@color/theme_yellow</item>
+    </style>
+    <style name="AppOrangeTheme" parent="AppTheme">
+        <item name="colorPrimary">@color/theme_orange</item>
+        <item name="colorPrimaryDark">@color/theme_orange</item>
+    </style>
+    <style name="AppGreenTheme" parent="AppTheme">
+        <item name="colorPrimary">@color/theme_green</item>
+        <item name="colorPrimaryDark">@color/theme_green</item>
+    </style>
+    <style name="AppPurpleTheme" parent="AppTheme">
+        <item name="colorPrimary">@color/theme_purple</item>
+        <item name="colorPrimaryDark">@color/theme_purple</item>
+    </style>
+
+</resources>

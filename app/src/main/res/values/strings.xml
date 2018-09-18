@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Notes3</string>
+    <string name="title_home">事项</string>
+    <string name="title_dashboard">想法</string>
+    <string name="title_notifications">多看</string>
+    <string name="ant_man_title">蚁人</string>
+    <string name="ant_man_actors">主演：保罗·路德，迈克尔·道格拉斯，伊万杰琳·莉莉，
+        寇瑞·斯托尔</string>
+    <string name="ant_man_content">详细内容</string>
+    <string name="new_to_do">新建事项</string>
+    <string name="new_thought">编辑想法</string>
+    <string name="new_movie">观影感受</string>
+    <string name="newToDoTitle">新建一个待办事项</string>
+    <string name="thought_title">输入想法名称</string>
+    <string name="thought_content">你的想法是什么</string>
+    <string name="no_picture">这里本应有图片</string>
+    <string name="instruction">使用技巧</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="instruction_details">
+        “待办事项”中：\n
+        1、点击“+”悬钮可以弹出或收回菜单，“新建”或是“删除”事项。\n
+        2、点出“删除”可以显示或隐藏事项的删除图标。\n
+        3、长按事项可以更改事项名称。\n\n
+        “想法”中：\n
+        1、点击想法便签可以进入该想法的编辑界面。\n
+        2、长按想法便签可以删除。\n
+        3、编辑完成后需点出“编辑完成”按钮保存。\n\n
+        “观影愿望”中：\n
+        1、点击电影名可以弹出该条记录，并能进入记录编辑界面。\n
+        2、长按电影名可以删除。\n
+        3、编辑完成后需点击“确认修改”按钮保存。
+    </string>
+    <string name="menu_update">Notes3 更新日志</string>
+    <string name="menu_update_log">
+        3.1版本（当前版本）：\n
+        1、新增侧边栏菜单。\n
+        2、更改底部导航栏菜单项名称。\n
+        3、“多看”界面增加类型选项。\n
+        4、新增用户功能。
+    </string>
+    <string name="email_tip">提示：\n注册后会发送一封验证邮件到您的邮箱。该邮箱用于找回、修改密码，
+        请务必填写正确且保证验证成功。</string>
+
+</resources>

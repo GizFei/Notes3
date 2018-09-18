@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="nav_view">
+
+    <group android:checkableBehavior="none">
+        <item
+            android:id="@+id/nav_account_change"
+            android:icon="@drawable/ic_menu_login"
+            android:title="切换账户"/>
+        <item
+            android:id="@+id/nav_change_psd"
+            android:icon="@drawable/ic_menu_changepsd"
+            android:title="更改密码" />
+        <item
+            android:id="@+id/nav_upload"
+            android:icon="@drawable/ic_cloud_upload"
+            android:title="上传云端" />
+        <item
+            android:id="@+id/nav_download"
+            android:icon="@drawable/ic_cloud_download"
+            android:title="从云端恢复" />
+        <item
+            android:id="@+id/nav_palette"
+            android:icon="@drawable/ic_menu_palette"
+            android:title="更换主题颜色" />
+    </group>
+
+    <item android:title="说明">
+        <menu>
+            <item
+                android:id="@+id/nav_instruction"
+                android:icon="@drawable/ic_menu_instruction"
+                android:title="使用技巧" />
+            <item
+                android:id="@+id/nav_log"
+                android:icon="@drawable/ic_menu_log"
+                android:title="更新日志" />
+        </menu>
+    </item>
+
+</menu>
